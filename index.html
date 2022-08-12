@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Converter</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div id="infoButton">
+            <i class="infoButtonElement1"></i>
+            <i class="infoButtonElement2"></i>
+        </div>
+            <h1>CURRENCY CONVERTER</h1>
+            <h3 class="description">select the amount to converter and the currencies</h3>
+            <div class="contentValue">
+                <div class="contentSelect">
+                    <select name="value_from" id="value_from">
+                    </select>
+                    <i class="arrowSelect"></i>
+                </div>
+                <input type="number" name="amount_from" id="amount_from" value="0">
+            </div>
+            <div class="containerButton">
+                <button id="submitData">CONVERT</button>
+                <p id="convertOne"></p>
+            </div>
+                
+            <div class="contentValue">
+                <div class="contentSelect">
+                    <select name="value_to" id="value_to">
+                    </select>
+                    <i class="arrowSelect"></i>
+                </div>
+                <input type="number" name="amount_to" id="amount_to" value="0">
+            </div>
+        </div>
+
+        <div class="containerInformation">
+            <div class="contentInformation">
+                <p>this currency converter has been created whit the "Exchange Rates Data AP". To know more information go to the link</p>
+                <a href="https://apilayer.com/marketplace/exchangerates_data-api#details-tab" target="_blank">API</a>
+            </div>
+        </div>
+
+    <script src="js/table.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
